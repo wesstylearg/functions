@@ -1,0 +1,20 @@
+{
+  "name": "downloader-backend",
+  "version": "1.0.0",
+  "description": "Media downloader backend for Firebase Functions and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions:api"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-functions": "^5.0.1",
+    "firebase-admin": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
